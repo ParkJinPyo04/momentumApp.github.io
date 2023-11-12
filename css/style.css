@@ -117,3 +117,11 @@ body {
 #todo-list li button:hover{
   color: rgba(255, 255, 255, 1);
 }
+
+#source-link {
+  position: absolute;
+  bottom: 50px;
+  font-size: min(20px, 3.5vw);
+  color: floralwhite;
+
+}

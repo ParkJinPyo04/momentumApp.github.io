@@ -1,0 +1,119 @@
+body {
+  width: 98vw;
+  height: 98vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: floralwhite;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  position: absolute;
+  top:0;
+  width: 1500px;
+  height: 1000px;
+  z-index: -10;;
+  filter: brightness(50%);
+}
+
+#clock {
+  height: 100px;
+  text-align: center;
+  font-size: min(150px, 15vw);
+  font-weight: lighter;
+}
+
+#quote {
+  position: absolute;
+  bottom: 20px;
+}
+
+#weather{
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+#login-form input{
+  margin-top: 60px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: min(40px, 6vw);
+  font-weight: unset;
+  color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid floralwhite;
+}
+
+#login-form button {
+  margin-left: 30px;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+  font-size: min(24px, 3.5vw);
+}
+
+#greeting {
+  margin-top: 60px;
+  font-size: min(40px, 6vw);
+  font-weight: unset;
+  color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+#toDo-list::-webkit-scrollbar {
+  display: none;
+}
+
+#todo-form input {
+  margin-top: 100px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: min(40px, 6vw);
+  font-weight: unset;
+  color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid floralwhite;
+}
+
+#todo-form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#todo-list {
+  margin-top: 30px;
+}
+
+#todo-list li {
+  margin-bottom: 16px;
+  padding: 5px;
+  font-size: min(36px, 3.5vw);
+}
+
+#todo-list li button {
+  margin-left: 10px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border:none;
+  outline: none;
+  font-size: min(24px, 3.5vw);
+  cursor: pointer;
+}
+
+#todo-list li button:hover{
+  color: rgba(255, 255, 255, 1);
+}
